@@ -5,7 +5,7 @@ const MiApi = ({users}) =>{
   return(
       <>
       <div className='divMiApi'> 
-      <h2>Nuestros productos</h2>
+      <h2>todos los productos</h2>
 
       <div className='row row-cols-lg-4 row-cols-md-2 row-cols-sm-1'>
       {users.map((user) => (
