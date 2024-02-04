@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto:wght@300;400;500&display=swap');
 
 body{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -21,7 +21,7 @@ body{
 }
 
 .spanCard{
-    color: red;
+    color: rgb(156, 101, 0);
     font-weight: bold;
 }
 
@@ -63,7 +63,7 @@ body{
     height: 90px;
     text-align: center;
     padding: 10px;
-    background-color: orangered;
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 

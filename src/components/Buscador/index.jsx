@@ -11,7 +11,7 @@ const Buscador = (props) => {
     return(
         <>
         <input type="search"
-        placeholder="Buscar producto"
+        placeholder="Buscar"
         className="form-control me-2 my-3 mx-4"
         value={search}
         onChange={handleSearch}
