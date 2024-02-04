@@ -1,20 +1,77 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto:wght@300;400;500&display=swap');
 
-* {
-  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+body{
+    background-color: aqua;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-:root {
-  line-height: 1.5;
-  font-weight: 400;
-  text-align: center;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 90px;
+    margin: 20px;
+    padding: 20px;
+    
 }
 
-body {
-  margin: 0;
-  background-color: #dce0e9;
+.priceCard{
+    color: green;
+    font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
+.spanCard{
+    color: red;
+    font-weight: bold;
+}
+
+.form-control{
+    width: 300px;
+}
+
+.divMiApi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    
+
+}
+
+.imageHeader{
+    width: 100%;
+    object-fit: cover;
+}
+
+.header{
+    position: relative;
+}
+
+.header h1{
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+
+} 
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+.buttonSort{
+    width: 250px;
+    margin-left: 50px;
+}
+
+.buttonSort:hover{
+    background-color:aqua
 }
